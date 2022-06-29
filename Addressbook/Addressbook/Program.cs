@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Addressbook
+namespace Addrssbook
 {
-    internal class Program
+    internal class AddressBookMain
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to Address Book Program in AddressBookMain class on Master Branch");
         }
     }
 }
