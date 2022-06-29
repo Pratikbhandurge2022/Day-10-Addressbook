@@ -17,14 +17,31 @@ namespace Addrssbook
         public long phoneNumber;
         public String email;
 
+        public AddressBook(string firstName, String lastName, String address, String city, String state, long zip, long phoneNumber, String email)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.address = address;
+            this.city = city;
+            this.state = state;
+            this.zip = zip;
+            this.phoneNumber = phoneNumber;
+            this.email = email;
+        }
+
+        public AddressBook()
+        {
+
+        }
+
         static public void SetAddress()
         {
 
             AddressBook addressBook = new AddressBook();
-            addressBook.firstName = "Pratik";
-            addressBook.lastName = "Bhandurge";
-            addressBook.address = "vimannager";
-            addressBook.city = "pune";
+            addressBook.firstName = "Partik";
+            addressBook.lastName = "BHandurge";
+            addressBook.address = "Vimannager";
+            addressBook.city = "Pune";
             addressBook.state = "maharashtra";
             addressBook.zip = 412207;
             addressBook.phoneNumber = 1234567890;
